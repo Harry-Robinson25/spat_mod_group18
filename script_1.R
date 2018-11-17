@@ -1,10 +1,10 @@
-setwd("~/Desktop/Spatial Modelling ")
+
 library(raster)
 library(ncdf4)
 library(rasterVis)
 library(maptools)
 library(maps)
-CLIMATE = stack("HadCRUT.4.6.0.0.median.nc")
+CLIMATE = stack("data/HadCRUT.median.nc")
 CLIMATE
 CLIMATE[[1]]
 image(CLIMATE[[1]])
