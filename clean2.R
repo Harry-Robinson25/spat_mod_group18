@@ -1,7 +1,7 @@
 # Transform Climate data into a cleaned-up array
 # The saved object is a 3d array with dimensions  (lat, long, month)
 # Each element is a number showing anomaly relative to base temperature
-# for that month.   All anomalises less that +/- 1.17 have been removed.
+# for that month.  
 
 library(raster)
 library(ncdf4)
